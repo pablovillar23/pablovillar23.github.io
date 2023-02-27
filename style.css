@@ -1,0 +1,159 @@
+.body {
+    background: #f2f2f2;
+    display: block;
+    margin: auto;
+}
+
+img {
+    width: auto;
+    height: 100%;
+    border-radius: 120px;
+}
+
+.cabecera {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+}
+
+.nombre {
+    letter-spacing: 5px;
+    font-size: 1.8em;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.frase {
+    letter-spacing: 3px;
+    font-size: 0.9em;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.contenido {
+    display: block;
+    background: white;
+    width: 90%;
+    max-width: 800px;
+	margin: 0px auto 45px auto;
+	box-shadow: 0 0 100px rgba(0,0,0,.1);
+}
+
+.contenido ul {
+    list-style: inside;
+}
+
+.nombre-nav-rectangulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+}
+
+.rectangulo div {
+    height: 250px;
+    width: 33%;
+    background-color: #333;
+    justify-content: center;
+    display: flex;
+}
+
+.cuadrado1 {    
+    align-items: center;
+    flex-direction: column;
+}
+
+.cuadrado3 {
+    display: flex;
+    align-items: center;
+}
+
+.navegacion ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;    
+}
+
+.navegacion ul li {
+    display: inline-block;
+}
+
+.navegacion ul li a {
+    display: block;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+}
+
+.navegacion ul li a:hover {
+    background: yellow;
+    color: black;
+    border-radius: 6px;
+}
+
+.main {
+padding-top: 230px;
+margin-top: 70px;
+display: block;
+color: black;
+}
+
+h1[id] {
+    scroll-margin-top: 300px;
+}
+
+.titulo {
+    padding-top: 30px;
+    letter-spacing: 3px;
+    font-size: 2.3em;
+	line-height: 1.3em;
+	margin: 15px 20px;
+	font-weight: 300;
+}
+
+.text {
+    line-height: 2em;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#personal {
+    margin-top: 0px;
+}
+
+.boton {
+
+    display: flex;
+    background: transparent;
+    margin: 0 auto;
+    justify-content: center;
+ 
+}
+
+.icono {
+    max-height: 30px;
+    max-width: 30px;
+}
+
+.redes {
+    justify-content: center;
+    margin: 0;
+}
+.redes ul {
+    display: flex;
+    justify-content: space-between;
+    width: 15%;
+    padding: 0;
+
+}
+
+.footer {
+    text-align: center;
+    padding-top: 250px;
+}
